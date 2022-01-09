@@ -14,6 +14,7 @@ func main() {
 	fmt.Println("Desplazamiento: ", displaceGlobal)
 	fmt.Println("Texto: ", texto)
 	fmt.Println(" ")
+
 	cifrarTexto()
 }
 
@@ -39,7 +40,4 @@ func cifrarTexto() string {
 	}
 	fmt.Println(cifrado)
 	return cifrado
-}
-func descifrar(cifrado string) {
-
 }
